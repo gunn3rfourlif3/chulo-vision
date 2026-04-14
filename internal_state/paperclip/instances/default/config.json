@@ -1,0 +1,22 @@
+{
+  "$meta": {
+    "version": 1,
+    "updatedAt": "2026-04-11T20:45:56Z",
+    "source": "onboard"
+  },
+  "database": {
+    "mode": "embedded-postgres",
+    "embeddedPostgresDataDir": "/root/.paperclip/instances/default/db",
+    "embeddedPostgresPort": 54329,
+    "createPostgresUser": true
+  },
+  "logging": { "mode": "file", "level": "info", "logDir": "/root/.paperclip/instances/default/logs" },
+  "server": { 
+    "deploymentMode": "authenticated", 
+    "host": "46.225.0.132", 
+    "port": 22303, 
+    "serveUi": true 
+  },
+  "storage": { "provider": "local_disk", "localDisk": { "baseDir": "/root/.paperclip/instances/default/data/storage" } },
+  "secrets": { "provider": "local_encrypted", "localEncrypted": { "keyFilePath": "/root/.paperclip/instances/default/secrets/master.key" } }
+}

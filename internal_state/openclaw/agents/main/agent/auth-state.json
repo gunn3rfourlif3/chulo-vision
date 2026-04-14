@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "lastGood": {
+    "moonshot": "moonshot:default"
+  },
+  "usageStats": {
+    "moonshot:default": {
+      "errorCount": 0,
+      "lastFailureAt": 1776153969058,
+      "lastUsed": 1776153969073
+    }
+  }
+}

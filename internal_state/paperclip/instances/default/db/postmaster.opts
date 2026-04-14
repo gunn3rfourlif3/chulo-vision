@@ -1,0 +1,1 @@
+/usr/local/share/pnpm/global/5/.pnpm/@embedded-postgres+linux-x64@18.1.0-beta.16/node_modules/@embedded-postgres/linux-x64/native/bin/postgres "-D" "/root/.paperclip/instances/default/db" "-p" "54329"

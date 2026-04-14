@@ -1,0 +1,9 @@
+{
+  "id": "chulo",
+  "name": "Chulo",
+  "role": "CEO & Lead Architect",
+  "provider": "openai",
+  "model": "kimi-k2.5:cloud",
+  "baseUrl": "http://127.0.0.1:11434/v1",
+  "apiKey": "ollama"
+}

@@ -1,0 +1,6 @@
+{"ts":"2026-04-12T12:31:18.113Z","stream":"stdout","chunk":"[paperclip] No project or prior session workspace was available. Using fallback workspace \"/root/.paperclip/instances/default/workspaces/2b72e8ff-73f4-40fa-a123-960faf668d7c\" for this run.\n"}
+{"ts":"2026-04-12T12:31:18.114Z","stream":"stdout","chunk":"[hermes] Starting Hermes Agent (model=gpt-3.5-turbo, provider=auto [auto], timeout=300s)\n"}
+{"ts":"2026-04-12T12:31:18.524Z","stream":"stderr","chunk":"Traceback (most recent call last):\n  File \"/usr/bin/hermes.real\", line 11, in <module>\n"}
+{"ts":"2026-04-12T12:31:18.525Z","stream":"stderr","chunk":"    main()\n  File \"/opt/hermes/hermes-agent/hermes_cli/main.py\", line 5923, in main\n"}
+{"ts":"2026-04-12T12:31:18.526Z","stream":"stderr","chunk":"    args.func(args)\n  File \"/opt/hermes/hermes-agent/hermes_cli/main.py\", line 758, in cmd_chat\n    from cli import main as cli_main\n  File \"/opt/hermes/hermes-agent/cli.py\", line 39, in <module>\n    from prompt_toolkit.history import FileHistory\nModuleNotFoundError: No module named 'prompt_toolkit'\n"}
+{"ts":"2026-04-12T12:31:18.561Z","stream":"stdout","chunk":"[hermes] Exit code: 1, timed out: false\n"}

@@ -1,0 +1,9 @@
+model = "gpt-5.3-codex"
+base_url = "http://127.0.0.1:11434/v1"
+api_key = "ollama"
+telemetry = false
+offline = true
+protocol = "rest"
+
+[sandbox]
+mode = "workspace-write"

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "profiles": {
+    "moonshot:default": {
+      "type": "api_key",
+      "provider": "moonshot",
+      "key": "sk-jnlgq2zA45Tuw0oekzx2DiJw22R1fhXFh04kCa17FqvraHEj"
+    }
+  }
+}

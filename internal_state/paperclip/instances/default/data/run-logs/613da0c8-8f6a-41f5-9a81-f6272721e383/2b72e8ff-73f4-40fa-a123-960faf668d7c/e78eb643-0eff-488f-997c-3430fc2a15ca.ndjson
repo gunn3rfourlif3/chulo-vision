@@ -1,0 +1,3 @@
+{"ts":"2026-04-12T07:26:52.707Z","stream":"stdout","chunk":"[paperclip] No project or prior session workspace was available. Using fallback workspace \"/root/.paperclip/instances/default/workspaces/2b72e8ff-73f4-40fa-a123-960faf668d7c\" for this run.\n"}
+{"ts":"2026-04-12T07:26:52.710Z","stream":"stdout","chunk":"[paperclip] Using Paperclip-managed Codex home \"/root/.paperclip/instances/default/companies/613da0c8-8f6a-41f5-9a81-f6272721e383/codex-home\" (seeded from \"/root/.codex\").\n"}
+{"ts":"2026-04-12T07:26:52.761Z","stream":"stderr","chunk":"Error loading config.toml: invalid type: map, expected a string\nin `model`\n\n"}

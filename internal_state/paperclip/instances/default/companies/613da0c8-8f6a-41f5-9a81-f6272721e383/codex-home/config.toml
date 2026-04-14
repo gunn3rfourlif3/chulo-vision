@@ -1,0 +1,12 @@
+model = "gpt-5.3-codex"
+base_url = "http://127.0.0.1:11434/v1"
+api_key = "ollama"
+telemetry = false
+offline = true
+protocol = "rest"
+
+[sandbox]
+mode = "workspace-write"
+
+[projects."/root/.paperclip/instances/default/workspaces/2b72e8ff-73f4-40fa-a123-960faf668d7c"]
+trust_level = "trusted"

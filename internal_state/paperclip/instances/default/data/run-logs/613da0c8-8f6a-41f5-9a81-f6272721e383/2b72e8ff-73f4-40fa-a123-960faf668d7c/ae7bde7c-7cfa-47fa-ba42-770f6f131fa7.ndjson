@@ -1,0 +1,6 @@
+{"ts":"2026-04-11T21:01:52.055Z","stream":"stdout","chunk":"[paperclip] Skipping saved session resume for task \"1fb189f4-9819-4177-94e2-9f08c0e37091\" because wake reason is issue_assigned.\n"}
+{"ts":"2026-04-11T21:01:52.060Z","stream":"stdout","chunk":"[paperclip] Using Paperclip-managed Codex home \"/root/.paperclip/instances/default/companies/613da0c8-8f6a-41f5-9a81-f6272721e383/codex-home\" (seeded from \"/root/.codex\").\n"}
+{"ts":"2026-04-11T21:01:52.062Z","stream":"stdout","chunk":"[paperclip] Injected Codex skill \"paperclip\" into /root/.paperclip/instances/default/companies/613da0c8-8f6a-41f5-9a81-f6272721e383/codex-home/skills\n"}
+{"ts":"2026-04-11T21:01:52.063Z","stream":"stdout","chunk":"[paperclip] Injected Codex skill \"paperclip-create-agent\" into /root/.paperclip/instances/default/companies/613da0c8-8f6a-41f5-9a81-f6272721e383/codex-home/skills\n"}
+{"ts":"2026-04-11T21:01:52.063Z","stream":"stdout","chunk":"[paperclip] Injected Codex skill \"paperclip-create-plugin\" into /root/.paperclip/instances/default/companies/613da0c8-8f6a-41f5-9a81-f6272721e383/codex-home/skills\n"}
+{"ts":"2026-04-11T21:01:52.063Z","stream":"stdout","chunk":"[paperclip] Injected Codex skill \"para-memory-files\" into /root/.paperclip/instances/default/companies/613da0c8-8f6a-41f5-9a81-f6272721e383/codex-home/skills\n"}

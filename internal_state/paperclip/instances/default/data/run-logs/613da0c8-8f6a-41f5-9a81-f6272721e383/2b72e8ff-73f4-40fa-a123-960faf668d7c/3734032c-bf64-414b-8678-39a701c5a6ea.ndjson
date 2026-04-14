@@ -1,0 +1,7 @@
+{"ts":"2026-04-12T12:42:55.279Z","stream":"stdout","chunk":"[paperclip] No project or prior session workspace was available. Using fallback workspace \"/root/.paperclip/instances/default/workspaces/2b72e8ff-73f4-40fa-a123-960faf668d7c\" for this run.\n"}
+{"ts":"2026-04-12T12:42:55.279Z","stream":"stdout","chunk":"[hermes] Starting Hermes Agent (model=gpt-3.5-turbo, provider=auto [auto], timeout=300s)\n"}
+{"ts":"2026-04-12T12:42:56.379Z","stream":"stdout","chunk":"Failed to initialize agent: Model gpt-3.5-turbo has a context window of 16,385 \r\n"}
+{"ts":"2026-04-12T12:42:56.380Z","stream":"stdout","chunk":"tokens, which is below the minimum 64,000 required by Hermes Agent.  Choose a \r\n"}
+{"ts":"2026-04-12T12:42:56.381Z","stream":"stdout","chunk":"model with at least 64K context, or set model.context_length in config.yaml to \r\n"}
+{"ts":"2026-04-12T12:42:56.381Z","stream":"stdout","chunk":"override.\r\n"}
+{"ts":"2026-04-12T12:42:56.560Z","stream":"stdout","chunk":"[hermes] Exit code: 1, timed out: false\n"}

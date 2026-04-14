@@ -1,0 +1,118 @@
+{
+  "617265c8d5f5ec9f7ad67c91d53ad34a0b5bdc012f1722379b3765c823d00008": {
+    "deviceId": "617265c8d5f5ec9f7ad67c91d53ad34a0b5bdc012f1722379b3765c823d00008",
+    "publicKey": "kPdV9bLNaqXWIimOHxo2Kyn5eKghvUFlip9hoQYyC74",
+    "platform": "linux",
+    "clientId": "cli",
+    "clientMode": "probe",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.read"
+    ],
+    "approvedScopes": [
+      "operator.read"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "u5osNpwJGKgeqYkcV_iT49i-GcEfjQHG2xvRGzKS68E",
+        "role": "operator",
+        "scopes": [
+          "operator.read"
+        ],
+        "createdAtMs": 1775738989765
+      }
+    },
+    "createdAtMs": 1775738989765,
+    "approvedAtMs": 1775738989765
+  },
+  "658c7ea8d3d1e2f43bbfd2a593513fc98b85a353ef136338fba81b5bb80d1813": {
+    "deviceId": "658c7ea8d3d1e2f43bbfd2a593513fc98b85a353ef136338fba81b5bb80d1813",
+    "publicKey": "gPTIjk2pn54DrUPenY1Sm81O21E_0_dzLd_p-y0T_WY",
+    "platform": "Win32",
+    "clientId": "openclaw-control-ui",
+    "clientMode": "webchat",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "approvedScopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "8ag8MhHeO7hnciN_6BZQO7cju3-0yvVu0BLOJXK6tjo",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing",
+          "operator.read",
+          "operator.write"
+        ],
+        "createdAtMs": 1775742843824
+      }
+    },
+    "createdAtMs": 1775742843823,
+    "approvedAtMs": 1775742843823
+  },
+  "e4801d0f5f8d8979ad935485b0aaa31d0e9da8544bb75549d94181feee03b39f": {
+    "deviceId": "e4801d0f5f8d8979ad935485b0aaa31d0e9da8544bb75549d94181feee03b39f",
+    "publicKey": "VdECGMXdevSPiYM_UthMOc43EB-5TH3jGSf6w3DYi-4",
+    "platform": "linux",
+    "clientId": "gateway-client",
+    "clientMode": "backend",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.read",
+      "operator.approvals",
+      "operator.admin",
+      "operator.write",
+      "operator.pairing",
+      "operator.talk.secrets"
+    ],
+    "approvedScopes": [
+      "operator.read",
+      "operator.approvals",
+      "operator.admin",
+      "operator.write",
+      "operator.pairing",
+      "operator.talk.secrets"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "2-23Hl5rrF7kp2DMVn-LyAI6gths14YpLB6SaRhITxQ",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing",
+          "operator.read",
+          "operator.talk.secrets",
+          "operator.write"
+        ],
+        "createdAtMs": 1775742975087,
+        "rotatedAtMs": 1775814298783
+      }
+    },
+    "createdAtMs": 1775742975087,
+    "approvedAtMs": 1775814298783,
+    "displayName": "Telegram Native Approvals (default)"
+  }
+}

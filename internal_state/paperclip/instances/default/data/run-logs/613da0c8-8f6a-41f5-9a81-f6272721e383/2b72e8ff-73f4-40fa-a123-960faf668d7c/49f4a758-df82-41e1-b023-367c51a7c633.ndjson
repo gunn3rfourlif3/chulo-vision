@@ -1,0 +1,4 @@
+{"ts":"2026-04-13T19:01:06.364Z","stream":"stdout","chunk":"[paperclip] No project or prior session workspace was available. Using fallback workspace \"/root/.paperclip/instances/default/workspaces/2b72e8ff-73f4-40fa-a123-960faf668d7c\" for this run.\n"}
+{"ts":"2026-04-13T19:01:06.364Z","stream":"stdout","chunk":"[hermes] Starting Hermes Agent (model=gpt-4-turbo, provider=openai-codex [modelInference], timeout=300s)\n"}
+{"ts":"2026-04-13T19:01:07.140Z","stream":"stdout","chunk":"No Codex credentials stored. Run `hermes auth` to authenticate. Run `hermes \r\nmodel` to re-authenticate.\r\n"}
+{"ts":"2026-04-13T19:01:07.290Z","stream":"stdout","chunk":"[hermes] Exit code: 1, timed out: false\n"}

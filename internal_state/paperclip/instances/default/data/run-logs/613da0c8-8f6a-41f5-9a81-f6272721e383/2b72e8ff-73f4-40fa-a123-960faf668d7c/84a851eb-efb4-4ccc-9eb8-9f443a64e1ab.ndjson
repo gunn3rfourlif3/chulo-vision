@@ -1,0 +1,12 @@
+{"ts":"2026-04-12T12:22:45.897Z","stream":"stdout","chunk":"[paperclip] No project or prior session workspace was available. Using fallback workspace \"/root/.paperclip/instances/default/workspaces/2b72e8ff-73f4-40fa-a123-960faf668d7c\" for this run.\n"}
+{"ts":"2026-04-12T12:22:45.897Z","stream":"stdout","chunk":"[hermes] Starting Hermes Agent (model=gpt-3.5-turbo, provider=auto [auto], timeout=300s)\n"}
+{"ts":"2026-04-12T12:22:46.130Z","stream":"stderr","chunk":"Traceback (most recent call last):\n  File \"/usr/lib/python3.12/pathlib.py\", line 1313, in mkdir\n"}
+{"ts":"2026-04-12T12:22:46.131Z","stream":"stderr","chunk":"    os.mkdir(self, mode)\nFileNotFoundError: [Errno 2] No such file or directory: '[object Object]/.hermes'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/bin/hermes\", line 11, in <module>\n    main()\n  File \"/opt/hermes/hermes-agent/hermes_cli/main.py\", line 5923, in main\n"}
+{"ts":"2026-04-12T12:22:46.131Z","stream":"stderr","chunk":"    args.func(args)\n"}
+{"ts":"2026-04-12T12:22:46.131Z","stream":"stderr","chunk":"  File \"/opt/hermes/hermes-agent/hermes_cli/main.py\", line 709, in cmd_chat\n"}
+{"ts":"2026-04-12T12:22:46.132Z","stream":"stderr","chunk":"    if not _has_any_provider_configured():\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hermes/hermes-agent/hermes_cli/main.py\", line 205, in _has_any_provider_configured\n    cfg = load_config()\n          ^^^^^^^^^^^^^\n  File \"/opt/hermes/hermes-agent/hermes_cli/config.py\", line 2252, in load_config\n"}
+{"ts":"2026-04-12T12:22:46.132Z","stream":"stderr","chunk":"    ensure_hermes_home()\n  File \"/opt/hermes/hermes-agent/hermes_cli/config.py\", line 298, in ensure_hermes_home\n"}
+{"ts":"2026-04-12T12:22:46.132Z","stream":"stderr","chunk":"    home.mkdir(parents=True, exist_ok=True)\n  File \"/usr/lib/python3.12/pathlib.py\", line 1317, in mkdir\n"}
+{"ts":"2026-04-12T12:22:46.132Z","stream":"stderr","chunk":"    self.parent.mkdir(parents=True, exist_ok=True)\n  File \"/usr/lib/python3.12/pathlib.py\", line 1313, in mkdir\n"}
+{"ts":"2026-04-12T12:22:46.132Z","stream":"stderr","chunk":"    os.mkdir(self, mode)\nPermissionError: [Errno 13] Permission denied: '[object Object]'\n"}
+{"ts":"2026-04-12T12:22:46.165Z","stream":"stdout","chunk":"[hermes] Exit code: 1, timed out: false\n"}
